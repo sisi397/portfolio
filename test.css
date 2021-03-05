@@ -1,0 +1,47 @@
+.verticalLine {
+    border-left: 1px solid #b1aeae;
+    display: inline-block;
+    position: absolute;
+    top:0;
+}
+.carousel-caption {
+    bottom: 40%;
+}
+#main{
+    background-image: url(img/main5.jpg);
+    background-repeat:no-repeat;
+}
+.title{
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    text-align: center;
+}
+/*about*/
+.aboutFont{
+    font-size:30px;
+    margin:5px;
+    color: black;
+}
+/*skill*/
+.skillFont{
+    font-size:50px;
+    width:100px;
+}
+.skillred{
+    color:rgb(255, 38, 0);
+}
+.skillyellow{
+    color:rgba(255, 238, 0, 0.904);
+}
+.skillblue{
+    color:rgb(0, 81, 255);
+}
+/*contact*/
+.contact{
+    background-color: rgb(63, 59, 59);
+    padding-bottom:5%;
+    padding-top:0.1%;
+}
+.submit{
+    float: right;
+}
