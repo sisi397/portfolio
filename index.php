@@ -162,7 +162,7 @@ include_once(G5_THEME_PATH.'/head.php');
           $sql2_result = sql_query($sql2);
           for($i=0; $store_row=sql_fetch_array($sql2_result); $i++){
                   echo
-                  '<div class="card"style="margin:20px; max-width:30%;">
+                  '<div class="card"style="margin:40px; max-width:30%;">
                   <img src="/theme/basic/img/'.$store_row["wr_5"].'"'.' class="card-img-top" alt="..." style="min-height:200px;">
                   <div class="card-body" style="min-height:200px;>
                     <h5 class="card-title">'.$store_row["wr_subject"].'</h5>

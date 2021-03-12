@@ -77,20 +77,15 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             </div>
         </div>
 <!-- } 상단 끝 -->
-<style>
-  .fixed{
-    position:fixed; top:0; left:0; width:100%;
-}
-</style>
 <script>
   //메뉴 고정
 $(window).on('scroll', function(){
   var now=$(this).scrollTop();
   console.log(now);
 
-  if(now>=600){
+  if(now>=710){
     $('nav').addClass('fixed');
-  }else if(now<600){
+  }else if(now<710){
     $('nav').removeClass('fixed');
     $('.menu li a').removeClass('active');
   }
@@ -102,13 +97,13 @@ $(window).on('scroll', function(){
       $('.menu li a').removeClass('active');
       $('.menu li').eq(index).children('a').addClass('active');
     }
-    if(now>2980){
+    if(now>3000){
       $('.menu li a').removeClass('active');
       $('.menu li').eq(index).children('a').addClass('active');
     }
   });
 });
-//메뉴클릭시해당 섹션으로스크롤 이동
+//메뉴클릭시 해당 섹션으로 스크롤 이동
 $('.menu a').on('click', function(e){
   e.preventDefault();
   var index=$(this).parent().index();
