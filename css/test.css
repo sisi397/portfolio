@@ -29,7 +29,7 @@ nav{margin-bottom:5%;}
     width:100px;
 }
 .skillred{
-    color:rgb(4, 0, 255);
+    color:rgb(255, 0, 0);
 }
 .skillyellow{
     color:rgba(255, 238, 0, 0.904);
@@ -46,8 +46,6 @@ nav{margin-bottom:5%;}
 .submit{
     float: right;
 }
-
-@media screen and (min-width:200px) and (max-width:360px){
-
-    
+.fixed{
+    position:fixed; top:0; left:0; width:100%;
 }
